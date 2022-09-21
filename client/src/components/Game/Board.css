@@ -1,0 +1,14 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    grid-template-rows: repeat(12, 58px);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 696px;
+    outline-style: solid;
+    outline-color:black;
+}
+
